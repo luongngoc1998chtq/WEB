@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href = "Mê Truyện.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Mê Truyện.com</title>
+  <link rel="stylesheet" href="Mê Truyện.css">
+   <script src="js/index.js"></script>
+</head>
+
+<script>
+  document.getElementById("p").style.color = "pink";
+  document.getElementById("p").style.fontFamily = "Times New Roman";
+  document.getElementById("p").style.fontSize = "50px";
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Đã theo dõi";
+  document.getElementById("demo").style.color = "blue";
+}
+</script>
+<body>
+ <input type="button" id="btn1" value="Ẩn"/>
+        <input type="button" id="btn2" value="Hiển Thị"/>
+  <div id="head" class="headers">
+    
+    <div class="navbar">
+        <form><h1 id="series" style=""> <center><em>Mê Truyện.com</em> </center></h1>
+        <h2><center><input type="search" name="" placeholder="tìm kiếm truyện" style="float:left;width:250px;height:40px" /></center></h2>  </form>
+
+<ul>
+        <li><a href="">Trang chủ</a></li>
+        <li><a href="#">Thể loại</a>
+        <ul>
+                            <li><a href="">Ngôn tình</a></li>
+                            <li><a href="">Kiếm hiệp</a></li>
+                            <li><a href="">Xuyên không</a></li>
+                            <li><a href="">Hiện đại</a></li>
+                            <li><a href="">Huyền huyễn</a></li>
+                            <li><a href="">Quân sự</a></li>
+                            <li><a href="">Truyền thuyết</a></li>
+                            <li><a href="">Đam mỹ </a></li>
+                            <li><a href="">Manhua </a></li>
+                            <li><a href="">Cổ đại </a></li>
+                        </ul>
+                    </li>
+        <li><a href="#">Danh mục</a>
+        <ul>
+                            <li><a href="">truyện đã hoàn thành</a></li>
+                            <li><a href="">truyện chưa hoàn thành</a></li>
+                            <li><a href="">truyện hot</a></li>
+                            <li><a href="">truyện dịch</a></li>
+                            <li><a href="">truyện covert</a></li>
+                            <li><a href="">truyện đọc nhiều</a></li>
+                            <li><a href="">truyện mới trong tuần</a></li>
+                        </ul></li>
+        <li><a href="#">Quốc gia</a>
+          <ul>
+            <li><a href="">Trung quốc </a></li>
+            <li><a href="">Nhật bản </a></li>
+            <li><a href="">Việt nam </a></li>
+            <li><a href="">Hàn quốc </a></li>
+            <li><a href="">Mỹ </a></li>
+            <li><a href="">Anh </a></li>
+            <li><a href="">Pháp </a></li>
+            <li><a href="">Thái lan </a></li>
+            <li><a href="">Lào </a></li>
+            <li><a href="">Đài loan </a></li>
+          </ul></li>
+        <li><a href="">Truyện tranh</a></li>
+        <li><a href="">Truyện chữ</a></li>
+        <li><a href="gopy.html">Góp ý </a></li>
+        <li><a id="demo" onclick="myFunction()" >Theo dõi trang </a></li>
+        <li  ><a  href="dangnhap.html">Đăng nhập </a></li>
+        <li><a href="dangky.html">Đăng ký </a></li>
+
+           </ul>
+                <div class="clear"></div>
+    </div>
+
+  <div class="bodys">
+    <div class="chayslider" id="slider">
+  <br><div class="mySlides fade">
+          <img src="img/14.jpg" >         
+        </div>
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <img src="img/18.jpg" >         
+        </div>
+        
+  <div class="mySlides fade">
+          <img src="img/16.webp" >  
+        </div>
+
+        <div class="mySlides fade">
+          <img src="img/17.jpg" >         
+        </div>
+         <div class="mySlides fade">
+          <img src="img/24.jpg" > </div>
+         <div class="mySlides fade">
+          <img src="img/22.jpg" >         
+        </div>
+         <div class="mySlides fade">
+          <img src="img/19.jpg" >         
+        </div>
+         <div class="mySlides fade">
+          <img src="img/20.jpg" >         
+        </div>
+         <div class="mySlides fade">
+          <img src="img/21.png" >         
+        </div>
+         <div class="mySlides fade">
+          <img src="img/15.jpg" > 
+        </div>    
+        
+      </div>
+      <br>  
+  <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(0)"></span> 
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+        <span class="dot" onclick="currentSlide(7)"></span>
+        <span class="dot" onclick="currentSlide(8)"></span>
+        <span class="dot" onclick="currentSlide(9)"></span>
+        <span class="dot" onclick="currentSlide(10)"></span>
+  </div>
+</div>
+        <div class="left">
+                <p id="p" >Truyện Hot</p>
+            <div class="left1">
+             
+              <div class="gallery">
+  <a  href="http://www.nettruyen.com/truyen-tranh/bi-mat-cua-thien-kim">
+  <img src="img/1.jpg"></a>
+  <div class="desc">
+   <h1><a href="http://www.nettruyen.com/truyen-tranh/bi-mat-cua-thien-kim">Bí mật của thiên kim </h1>
+    
+  </div>
+</div>
+<div class="gallery">
+  <a  href="http://www.nettruyen.com/truyen-tranh/monkey-peak-dinh-nui-khi">
+  <img src="img/25.jpg"></a>
+  <div class="desc">
+   <h1><a  href="http://www.nettruyen.com/truyen-tranh/monkey-peak-dinh-nui-khi">Monkey Peak - Đỉnh Núi Khỉ </h1>
+  </div>
+</div>
+<div class="gallery">
+  <a  href="http://www.nettruyen.com/truyen-tranh/hiep-si-giay-a">
+  <img src="img/26.jpg"></a>
+  <div class="desc">
+   <h1><a  href="http://www.nettruyen.com/truyen-tranh/hiep-si-giay-a">Hiệp Sĩ Giấy A </h1>
+  </div>
+</div>
+         <div class="gallery">
+  <a href="http://www.nettruyen.com/truyen-tranh/co-vo-am-ap-cua-ha-thieu">
+  <img src="img/27.jpg"></a>
+  <div class="desc">
+   <h1><a  href="http://www.nettruyen.com/truyen-tranh/co-vo-am-ap-cua-ha-thieu">Cô vợ ấm áp của hạ thiếu </h1>
+  </div>
+</div> <div class="gallery">
+  <a  href="http://www.nettruyen.com/truyen-tranh/the-gioi-game-thu">
+  <img src="img/28.jpg"></a>
+  <div class="desc">
+   <h1><a  href="http://www.nettruyen.com/truyen-tranh/the-gioi-game-thu">Thế giới game thủ </h1>
+  </div>
+</div>
+             <div class="gallery">
+  <a  href="http://www.nettruyen.com/truyen-tranh/toan-chuc-phap-su">
+  <img src="img/29.jpg"></a>
+  <div class="desc">
+   <h1><a  href="http://www.nettruyen.com/truyen-tranh/toan-chuc-phap-su">Toàn Chức Pháp Sư </h1>
+  </div>
+</div>
+<div class="gallery">
+  <a  href="http://www.nettruyen.com/truyen-tranh/chua-te-hoc-duong">
+  <img src="img/30.jpg"></a>
+  <div class="desc">
+    <h1><a  href="http://www.nettruyen.com/truyen-tranh/chua-te-hoc-duong">Chúa tể học đường</h1> 
+  </div>
+</div>
+<div class="gallery">
+  <a  href="http://www.nettruyen.com/truyen-tranh/dac-nhiem-sieu-cap-thanh-pho">
+  <img src="img/31.jpg"></a>
+  <div class="desc">
+    <h1><a href="http://www.nettruyen.com/truyen-tranh/dac-nhiem-sieu-cap-thanh-pho">Đặc Nhiệm Siêu Cấp Thành Phố </h1> 
+  </div>
+</div>
+<div class="gallery">
+  <a href="http://www.nettruyen.com/truyen-tranh/blue-lock">
+  <img src="img/32.jpg"></a>
+  <div class="desc">
+    <h1><a  href="http://www.nettruyen.com/truyen-tranh/blue-lock">Blue Lock</h1> 
+  </div>
+</div>
+<div class="gallery">
+  <a href="http://www.nettruyen.com/truyen-tranh/vo-luyen-dinh-phong">
+  <img src="img/33.jpg"></a>
+  <div class="desc">
+    <h1><a href="http://www.nettruyen.com/truyen-tranh/vo-luyen-dinh-phong">Võ Luyện Đỉnh Phong</h1> 
+  </div>
+</div>
+<div class="gallery">
+  <a  href="http://www.nettruyen.com/truyen-tranh/mejaz-nhan-gian-ngoc">
+  <img src="img/34.jpg"></a>
+  <div class="desc">
+    <h1><a  href="http://www.nettruyen.com/truyen-tranh/mejaz-nhan-gian-ngoc">Mejaz - Nhân gian ngọc</h1> 
+  </div>
+</div>
+<div class="gallery">
+  <a  href="http://www.nettruyen.com/truyen-tranh/kieu-ngao-vuong-gia-chung-dien-phi">
+  <img src="img/35.jpg"></a>
+  <div class="desc">
+    <h1><a  href="http://www.nettruyen.com/truyen-tranh/kieu-ngao-vuong-gia-chung-dien-phi">Kiêu Ngạo Vương Gia Chủng Điền Phi</h1> 
+  </div>
+</div>
+<div class="gallery">
+  <a  href="http://www.nettruyen.com/truyen-tranh/do-thi-cuc-pham-y-tien">
+  <img src="img/36.jpg"></a>
+  <div class="desc">
+    <h1><a  href="http://www.nettruyen.com/truyen-tranh/do-thi-cuc-pham-y-tien">Đồ thi cực phẩm y tiên</h1> 
+  </div>
+</div>
+<div class="gallery">
+  <a  href="http://www.nettruyen.com/truyen-tranh/ahiru-no-oujisama-kazao">
+    <img src="img/37.jpg"></a>
+     <div class="desc">
+    <h1><a  href="http://www.nettruyen.com/truyen-tranh/ahiru-no-oujisama-kazao">Ahiru No Oujisama (Kazao)</h1>
+     </div>
+</div>
+<div class="gallery">
+  <a  href="http://www.nettruyen.com/truyen-tranh/thuan-phi-ky">
+  <img src="img/38.jpg"></a>
+  <div class="desc">
+    <h1><a  href="http://www.nettruyen.com/truyen-tranh/thuan-phi-ky">Thuần phi kí</h1> 
+  </div>
+</div>
+</div>
+</div>
+<div id="con" class="right">
+            <div class="item2">
+                <div class="title">
+                    ĐỀ XUẤT CHO BẠN
+                </div>
+                <ol class="item3">
+
+                     <li><a  href="http://www.nettruyen.com/truyen-tranh/dau-la-dai-luc">
+  <img src="img/39.jpg">  Đấu La Đại Lục</a></li>
+                     <li><a  href="http://www.nettruyen.com/truyen-tranh/nghich-thien-ta-than">
+  <img src="img/40.jpg">Nghịch Thiên Tà Thần</li>
+                     <li><a  href="http://www.nettruyen.com/truyen-tranh/tay-choi-than-cap">
+  <img src="img/41.jpg">Tay Chơi Thần Cấp</li>
+                     <li><a  href="http://www.nettruyen.com/truyen-tranh/van-co-kiem-than">
+  <img src="img/42.jpg">Vạn Cổ Kiếm Thần</li>
+                     <li><a  href="http://www.nettruyen.com/truyen-tranh/yeu-than-ky">
+  <img src="img/43.jpg">Yêu Thần Ký</li>
+                     <li><a  href="http://www.nettruyen.com/truyen-tranh/manh-the-kho-do-2">
+  <img src="img/44.jpg">Manh thê khó dỗ 2</li>
+                     <li><a  href="http://www.nettruyen.com/truyen-tranh/ac-nu-cai-bien">
+  <img src="img/45.jpg">Ác Nữ Cải Biến</li>
+                     <li><a  href="http://www.nettruyen.com/truyen-tranh/tuyet-the-vo-than">
+  <img src="img/46.jpg">Tuyệt Thế Võ Thần</li>
+                     <li><a  href="http://www.nettruyen.com/truyen-tranh/cuoc-gap-g-dieu-ky">
+  <img src="img/47.jpg">Cuộc gặp gỡ diệu kỳ</li>
+                     <li><a  href="http://www.nettruyen.com/truyen-tranh/spirit-circle-hon-hoan">
+  <img src="img/48.jpg">Spirit Circle-Hồn Hoàn</li>
+
+</ol> 
+            </div>
+        </div>
+
+</div>
+<div class="noidung">
+<p>Truyện Mới</p>
+      <table class="truyenmoi">
+              <td><a href="http://www.nettruyen.com/truyen-tranh/ma-dao-to-su-mao-doan-tieu-kiem-kiem"><img src="img/10.jpg" ></a><div class="desc">
+    <h1><a  href="http://www.nettruyen.com/truyen-tranh/ma-dao-to-su-mao-doan-tieu-kiem-kiem">Ma Đạo Tổ Sư- Mao Đoàn Tiểu Kiếm Kiếm</h1> 
+  </div></td>
+  <td><a href="http://www.nettruyen.com/truyen-tranh/quy-ba"><img src="img/2.jpg" ></a><div class="desc">
+    <h1><a  href="http://www.nettruyen.com/truyen-tranh/quy-ba">Qúy bà</h1> 
+  </div></td>
+             <td><a href="http://www.nettruyen.com/truyen-tranh/kantai-collection-kankore-tomarigi-no-chinjufu"><img src="img/3.jpg" ></a><div class="desc">
+    <h1><a  href="http://www.nettruyen.com/truyen-tranh/kantai-collection-kankore-tomarigi-no-chinjufu">Kantai Collection - Kankore</h1> 
+  </div></td>
+              <td><a href="http://www.nettruyen.com/truyen-tranh/do-thi-chi-nghich-thien-tien-ton"><img src="img/4.jpg" ></a><div class="desc">
+    <h1><a  href="http://www.nettruyen.com/truyen-tranh/do-thi-chi-nghich-thien-tien-ton">Đô Thị Chi Nghịch Thiên Tiên Tôn</h1> 
+  </div></td>
+              <td><a href="http://www.nettruyen.com/truyen-tranh/tri-menh-dung-khi"><img src="img/5.jpg" ></a><div class="desc">
+    <h1><a  href="http://www.nettruyen.com/truyen-tranh/tri-menh-dung-khi">Trí mệnh dưỡng khí</h1> 
+  </div></td>
+              <td><a href="http://www.nettruyen.com/truyen-tranh/the-mysterious-tale-of-yumi-chan"><img src="img/6.jpg"></a><div class="desc">
+    <h1><a  href="http://www.nettruyen.com/truyen-tranh/the-mysterious-tale-of-yumi-chan">The Mysterious Tale Of Yumi-chan</h1> 
+  </div></td></tr>
+              <td><a href="http://www.nettruyen.com/truyen-tranh/nguoi-che-tao-vuong-bai"><img src="img/7.jpg" ></a><div class="desc">
+    <h1><a  href="http://www.nettruyen.com/truyen-tranh/nguoi-che-tao-vuong-bai">Người chế tạo vương bài</h1> 
+  </div></td>
+              
+              <td><a href="http://www.nettruyen.com/truyen-tranh/the-call-of-cthulhu"><img src="img/8.jpg" ></a><div class="desc">
+    <h1><a  href="http://www.nettruyen.com/truyen-tranh/the-call-of-cthulhu">The call of Cthulhu</h1> 
+  </div></td>
+             <td><a href="http://www.nettruyen.com/truyen-tranh/cho-doi-noi-vi-sao-bang-roi-xuong"><img src="img/9.jpg" ></a><div class="desc">
+    <h1><a  href="http://www.nettruyen.com/truyen-tranh/cho-doi-noi-vi-sao-bang-roi-xuong">Chờ Đợi Nơi Vì Sao Băng Rơi Xuống</h1> 
+  </div></td>
+              
+
+              <td><a href="http://www.nettruyen.com/truyen-tranh/su-phu-la-dao-hoa-yeu"><img src="img/11.jpg" ></a><div class="desc">
+    <h1><a  href="http://www.nettruyen.com/truyen-tranh/su-phu-la-dao-hoa-yeu">Sư Phụ Là Đào Hoa Yêu</h1> 
+  </div></td>
+              <td><a href="http://nhattruyen.com/truyen-tranh/bach-luyen-thanh-than"><img src="img/12.jpg" ></a><div class="desc">
+    <h1><a  href="http://nhattruyen.com/truyen-tranh/bach-luyen-thanh-than">Bách luyện thành thần</h1> 
+  </div></td>
+              <td><a href="http://www.nettruyen.com/truyen-tranh/bon-chuot"><img src="img/13.jpg" ></a><div class="desc">
+    <h1><a  href="http://www.nettruyen.com/truyen-tranh/bon-chuot">Bọn Chuột</h1> 
+  </div></td>
+          
+          </table></div>
+<div class="footers">
+        <div class="footer1">
+            <a href="https://www.facebook.com/permalink.php?id=345333178965476&story_fbid=1330187190480065">
+  <img src="img/52.png" alt="HTML tutorial" style="">
+</a>
+<a href="https://support.google.com/mail/answer/8494?co=GENIE.Platform%3DDesktop&hl=vi">
+  <img src="img/49.png" alt="HTML tutorial" style="">
+</a>
+<a href="https://www.instagram.com/?hl=vi">
+  <img src="img/50.jpg" alt="HTML tutorial" style="">
+</a>
+<a href="https://www.google.com.vn/?hl=vi">
+  <img src="img/51.png" alt="HTML tutorial" style="">
+</a>
+
+            <a>QUYỀN LỢI</a>
+            <a>ĐIỀU KHOẢN SỬ DỤNG</a>
+            <a>LIÊN HỆ QUẢNG CÁO</a><br><br>
+            <p> Powered By Mê Truyện.com | create by: LƯƠNG THỊ NGỌC <br>
+Mọi thông tin và hình ảnh trên website điều được sưu tầm trên internet</p>
+        </div>
+    </div>
+</body>
+<script src="js/index.js"></script>
+
+</html>

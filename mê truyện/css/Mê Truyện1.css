@@ -1,0 +1,371 @@
+*{ margin: 0px; padding: 0px;}
+
+a{text-decoration: none;color: #fff;font-size: 20px;}
+.clear{ clear: both;}
+.navbar{ background:     #ffb3b3; margin-top: 0px;}
+.navbar>ul>li{ list-style: none; float: left; padding: 12px 13px; position: relative;border-right: 1px dotted #dedede;}
+.navbar>ul>li:last-child{ border-right:none;}
+.navbar>ul>li>a{text-decoration: none;color: #000000;font-size: 20px;}
+.navbar>ul>li>ul{ display: none; position: absolute; background: #00A69B;top: 42px;width: 198px;left: 0px;}
+.navbar>ul>li:hover ul{ display: block;}
+.navbar ul li:hover{ background: #5f5c5c; transition: all 0.25s;}
+.navbar>ul>li>ul>li{ padding: 5px 10px;}
+.na>vbarul>li>ul>li{ border-bottom: 1px dotted #dedede;}
+.navbar>form>h1{text-decoration: none;font-size: 50px;color: red;}
+
+/*HEADER*/
+.headers
+{
+    height: auto;
+    width: 1350px;
+  
+}
+/*BODY*/
+* {
+  box-sizing: border-box;
+}
+body {
+    
+  text-decoration: none;
+  font-size: 9px;
+  bottom: 10px;
+}
+.container {
+  position: relative;
+  max-width: 800px;
+  margin: auto; /*căn chỉnh lề*/
+}
+.container img {vertical-align: middle;
+width:200px;height:200px;
+
+}
+
+.container .content {
+  position: absolute;/* sử dụng để chỉnh vị trí cho một phần tử */
+  left: 0px;
+  bottom: 10px;
+  
+ 
+  color: #f1f1f1;
+width: 200px;
+    height: 30px;
+  padding: 10px;
+}
+.mySlides img {
+  width: 1140px;
+  height: 400px;
+}
+
+.chayslider{
+  margin: 0px auto;
+  width: 1140px;
+  height: 400px;
+ 
+  margin-bottom: 15px;
+}
+
+.bodys{
+    width: 1340px;
+    height: 1120px;/* chỉnh phần thân và phần cuối trang*/
+}
+.left{
+    float: left;
+    width: 800px;
+    height: 520px;
+    margin-top: 5px;
+    left: 0px;
+
+}
+.left>p{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 23px;
+    background-color:#d33;
+    text-align: center;
+    width: 300px;
+    margin-left: 15px;
+    font-weight: bold;
+     font-style: italic;
+}
+
+.left1{
+    padding: 10px;
+    float: left;
+    width: 1100px;
+    height: 800px;
+    background-color: white;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.left1 img{
+    width: 200px;
+    height: 200px;
+    margin-left:10px ;
+    margin-top: 0px;
+    margin-right:  10px;
+    margin: 5px;
+
+}
+.gallery {
+ margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 203px;
+   height: 250px;
+}
+
+.gallery:hover {
+  border: 1px solid #777;
+}
+
+.gallery img {
+   width: 200px;
+    height: 200px;
+    margin-left:0px ;
+    margin-top: 0px;
+    margin-bottom: 1px;
+    margin-right:  10px;
+    vertical-align: middle;
+   }
+.gallery.desc {
+  padding: 100px;
+  text-align: center;
+
+
+}
+.gallery h1{
+    font-size: 20px;
+    text-align: center;
+  left: 150px;
+  bottom: 0px;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+width: 200px;
+    height: 45px;
+
+  padding: 2px;
+
+}
+
+.noidung{
+   
+    width: 800px;
+    height: 520px;
+    margin-top: 155px;
+    left: 0px;
+}
+.noidung table{
+  margin-left: 10px;
+   }
+.noidung>p{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 23px;
+    
+    background-color:#d33;
+    text-align: center;
+    width: 300px;
+    margin-left: 15px;
+    font-weight: bold;
+     font-style: italic;
+}
+.truyenmoi {
+ margin: 5px;
+ 
+  float: left;
+  width: 203px;
+   height: 250px;
+}
+
+.truyenmoi:hover {
+ border-image-width:  200px;
+}
+
+.truyenmoi img {
+   width: 200px;
+    border: 1px solid #777;
+
+    height: 240px;
+    margin-left:0px ;
+    margin-top: 0px;
+     margin-bottom: 1px;
+    margin-right:  10px;
+    vertical-align: middle;
+   }
+.truyenmoi.desc {
+  padding: 100px;
+  text-align: center;
+
+
+}
+.truyenmoi h1{
+    font-size: 20px;
+    text-align: center;
+  left: 150px;
+  margin-bottom: 10px;
+  bottom: 0px;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(144,144,144, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+width: 200px;
+    height: 45px;
+
+  padding: 2px;
+
+}
+.right{
+    float: right;
+    width: 260px;
+    height: auto;
+    background-color:white;
+
+}
+
+.item2{
+    width: 95%;
+    height: 820px;
+    background-color:white;
+    border: 10px solid #ccc;
+    border-top: 50px solid #d33;
+    margin: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+   right: 5px;
+
+}
+.item3 a{
+  height: 60px;
+
+}
+.item3 li{
+    font-family: sans-serif;
+    margin-top: 20px;
+    font-size: 14px;
+    right:  20px;
+    color: black;
+    margin-left:20px ;
+    margin-top: 5px;
+    text-align: top-center;
+    height: 60px;
+     
+}
+.item3 img {
+   width: 50px;
+    border: 1px solid #777;
+
+    height: 60px;
+    margin-left:0px ;
+    margin-top: 0px;
+     margin-bottom: 1px;
+    margin-right:  5px;
+    vertical-align: middle;
+   }
+.item3 a:link {
+    font-size: 14px;
+  color: black;
+
+}
+
+/* visited link */
+.item3 a:visited {
+  color: black;
+}
+
+/* mouse over link */
+.item3 a:hover {
+  color: red;
+}
+
+/* selected link */
+.item3 a:active {
+  color: blue;
+}
+
+
+.title{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #ff0000;
+    font-size: 20px;
+}
+/*FOOTER*/
+.footers{
+    width: 100%;
+    height: auto;
+    background-color: #0080ff;
+}
+.footer1{
+    background-color:   #FFC0CB;
+    text-align: center;
+  
+   margin-top: 150px;
+}
+.footer1>a{
+    width: 100px;
+    height: auto;
+    color: black;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    margin-top: center;
+
+}
+.footer1>p{
+  font-size: 18px;
+}
+
+.footer1 img{
+  margin-top: 10px;
+    width:40px;
+    height:40px;
+    border:0px;
+}
+
+
+/* unvisited link */
+a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: black;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+.truyenmoi a:link {
+  color: black;
+}
+
+/* visited link */
+.truyenmoi a:visited {
+  color: black;
+}
+
+/* mouse over link */
+.truyenmoi a:hover {
+  color: red;
+}
+
+/* selected link */
+.truyenmoi a:active {
+  color: blue;
+}
+
+
+

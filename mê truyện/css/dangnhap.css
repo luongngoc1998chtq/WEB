@@ -1,0 +1,54 @@
+.btn-group >a{
+	color: white;
+}
+.btn-group a:link {
+    font-size: 14px;
+  color: white;
+}
+/* visited link */
+.btn-group a:visited {
+  color: white;
+}
+/* mouse over link */
+.btn-group a:hover {
+  color: black;
+}
+/* selected link */
+.btn-group a:active {
+  color: blue;
+}
+.row.col-sm-4 {
+	padding: 10px;
+}
+.btn-group {
+	left: 50px;
+}
+/* @media quy tắc được sử dụng trong các truy vấn phương tiện truyền thông 
+để áp dụng phong cách khác nhau cho phương tiện truyền thông các loại / thiết bị khác nhau.*/
+
+@media (min-width: 768px /*độ rộng nhỏ nhất*/) { 
+.container { max-width: 730px;}
+}
+/*chế độ khung nhìn :đặt chiều rộng của trang để theo chiều rộng màn hình của thiết bị (sẽ thay đổi tùy theo thiết bị)*/
+@-ms-viewport {width: device-width;}    
+.or-text-row {  
+display: table-row;
+}
+.or-text {  display: table; 
+width: 100%;    
+position: relative; 
+margin: 20px 0;
+}
+.or-text-line { 
+display: table-cell;    
+text-align: center; 
+position: relative; 
+width: 100%;
+}
+ 
+
+ 
+
+ 
+
+

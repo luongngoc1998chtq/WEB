@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <title>GÓP Ý</title>
+ <link rel="stylesheet" href="css/gopy.css">
+</head>
+<script>  
+ function checkInput()
+    {
+      if (document.myform.name.value=="")
+        {
+          alert("Bạn chưa nhập góp ý");
+          document.myform.name.focus();
+          return false;
+        }  
+        else alert("Đã gửi góp ý của bạn đến quản trị trang");
+        return true;
+        }
+</script>
+  <div id="frame">
+  <form name="myform" method="post" action="Mê Truyện1.html" onsubmit="return checkInput()" >
+   <br><h1 align="center" style="color:black">GÓP Ý </h1>
+   <div align="center" id="errorText"></div>   
+           <p align="center">
+            <textarea class="chu" name="name" id="name" rows="18" cols="50">
+</textarea><br>
+            <input type="submit" value="Gửi" >
+            <input type="reset" value="Reset" >      
+  </form>
+  </div>
+</body>
+</html>

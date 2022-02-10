@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href = "css/dangnhap.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Mê Truyện.com</title>
+  <link rel="stylesheet" href="css/dangnhap.css">
+</head>
+<script>  
+function validateform(){  
+var name=document.myform.name.value;  
+var password=document.myform.password.value;  
+  if (password == "" && name !="" ){
+                alert("Bạn chưa nhập password!");  
+                 return false; 
+            }
+            else if (name == "" && password !="" ){
+                 alert("Bạn chưa nhập username!");  
+                 return false; 
+            }
+            else if (password.length < 8 && name !="" ){
+               alert("password thiếu (< 8 kí tự)");  
+                 return false;
+            }
+            else if (name == "" || password == ""){
+                 alert("Bạn chưa nhập password và username!");  
+                 return false; 
+            }
+          }
+        </script>  
+        <body>  
+<form name="myform" method="post" action="Mê Truyện1.html" onsubmit="return validateform()" >
+  <div class="container">    
+ <center><h1 class="well">Đăng Nhập</h1>  </center>    
+ <div class="col-lg-12 well">              
+  <div class="row">                    
+   <div class="col-sm-6 form-group">                       <label>Tên đăng nhập</label>  <!-- label xác định nhãn cho phần tử-->                      
+    <input type="text" name="name" placeholder="Username" class="form-control" id="username">                 
+   </div>                  
+   <div class="col-sm-6 form-group">                       <label>Mật khẩu</label>                     
+    <input type="password" name="password" placeholder="Password" class="form-control" id="password">                 
+   </div>              
+  </div>               
+  <div class="row">    
+   <div id="message"></div>                             
+   <div class="col-sm-12 text-center">                 
+    <button type="submit"  class="btn btn-block btn-info" onclick="validate()">Đăng nhập</button>                 
+   </div>              
+  </div>                               
+  <div class="or-text">                    
+   <div class="or-text-row">                       
+    <div class="or-text-line">                         
+     <button type="button" class="btn btn-default btn-circle" disabled="disabled">hay</button>                     
+    </div>                 
+   </div>              
+  </div>               
+  <div class="row">                        
+   <div class="col-sm-4">                      
+    <div class="btn-group">                            
+     <button type="button" class="btn btn-primary"><a href="https://www.facebook.com/">Đăng nhập bằng Facebook </a>
+     </button>                     
+    </div>                 
+   </div>                  
+   <div class="col-sm-4">                      
+    <div class="btn-group">                            
+     <button type="button" class="btn btn-danger"><a href="https://accounts.google.com/signin/v2/recoveryidentifier?hl=vi&flowName=GlifWebSignIn&flowEntry=ServiceLogin" >Đăng nhập bằng Google+</a> 
+     </button>                     
+    </div>                 
+   </div>                  
+        <div class="col-sm-4">                      
+    <div class="btn-group">                            
+     <button type="button" class="btn btn-danger"><a href="Mê Truyện.html" >Quay lại</a> 
+     </button>                     
+    </div>                 
+   </div>              
+  </div>           
+ </div>    
+</div></form>
+<link rel="stylesheet" href="https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<script src="js/jquery-1.11.1.min.js"></script>
+</body>
+</html>

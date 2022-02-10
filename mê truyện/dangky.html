@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <title>VALIDATE FORM</title>
+ <link rel="stylesheet" href="css/dangky.css">
+<script language="JavaScript">
+    function checkinput(){
+        username=document.myform.username;
+        password=document.myform.password;
+        password1=document.myform.password1;
+        gioitinh=document.myform.gioitinh;
+        hoten=document.myform.hoten;
+        diachi=document.myform.diachi;
+        email=document.myform.email;
+        dienthoai=document.myform.dienthoai;
+        reg1=/^[0-9A-Za-z]+[0-9A-Za-z_]*@[\w\d.]+.\w{2,4}$/;/* ^ Bắt đầu của dòng ;\w  Bất kỳ ký tự từ (chữ, số, gạch dưới); \d  Bất kỳ chữ số ;
+         $ Kết thúc dòng*/
+        testmail=reg1.test(email.value);
+       
+        if(username.value==""){
+            alert("Bạn chưa nhập tên đăng nhập");
+            username.focus();
+            return false;
+        }
+        if(password.value=="" || password.value.length < 8){
+            alert("Chưa nhập mật khẩu hoặc mật khẩu thiếu");
+            password.focus();
+            return false;
+        }
+        if(password1.value==""||password1.value!==password.value){
+            alert("Mật khẩu lần 2 chưa khớp");
+            password1.focus();
+            return false;
+        }
+        if(hoten.value==""){
+            alert("Hãy nhập vào họ tên của bạn");
+            hoten.focus();
+            return false;
+        }
+        
+        
+        if(diachi.value==""){
+            alert("Chưa nhập địa chỉ");
+            diachi.focus();
+            return false;
+        }
+        if(!testmail){
+            alert("Địa chỉ email không hợp lệ");
+            email.focus();
+            return false;
+        }
+        /* isNaN dữ liệu nhập vào là kiểu số */
+        if(dienthoai.value=="" || isNaN(dienthoai.value) || dienthoai.value.length!=11){
+            alert("Số điện thoại chưa chính xác");
+            dienthoai.focus();
+            return false;
+        }
+        else alert("Đăng ký thành công");
+        return true;
+    }
+    
+</script>
+</head>
+  <div class="myform">
+  <form name="myform" method="post" action="Mê Truyện1.html" onsubmit="return checkinput();">
+   <br><h1 align="center" style="color:black">ĐĂNG KÝ </h1>
+   <div align="center" id="errorText"></div>
+     <table align="center" cellspacing="0px" cellpadding="15px" border="0">
+     <tr>
+            <td><b>Tên đăng nhập:</b></td>
+            <td><input type="text" size="30" name="username" /></td>
+          </tr>
+          <tr>
+            <td><b>Mật khẩu:</b></td>
+            <td><input type="password" size="30" name="password" /></td>
+          </tr>
+          <tr>
+            <td><b>Nhập lại Mật khẩu:</b></td>
+            <td><input type="password" size="30" name="password1" /></td>
+          </tr>
+          <tr>
+            <td><b>Họ tên:</b></td>
+            <td><input type="text" size="30" name="hoten" /></td>
+          </tr>
+          <tr>
+            <td><b>giới tính:</b></td>
+            <td><select id="gender" onchange="">
+            <option value=""> -- Chọn -- </option>
+            <option value="nam">Nam</option>
+            <option value="nu"> Nữ </option>
+        </select></td>
+          </tr>
+          <tr>
+            <td><b>Địa chỉ:</b></td>
+            <td><input type="text" size="30" name="diachi" /></td>
+          </tr>
+          <tr>
+            <td><b>Email:</b></td>
+            <td><input type="text" size="30" name="email" /></td>
+          </tr>
+          <tr>
+            <td><b>Số điện thoại:</b></td>
+            <td><input type="text" size="30" name="dienthoai" /></td>
+          </tr>
+          <p align="center"> </p>
+        </table>
+        <p align="center">
+            <input type="submit" value="Đăng ký" >
+            <input type="reset" value="Làm lại" >
+        </p>
+      </form>
+     
+</body>
+</html>
